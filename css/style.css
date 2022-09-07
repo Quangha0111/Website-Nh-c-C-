@@ -1,0 +1,151 @@
+
+.icon{
+    font-size: 15px;
+}
+.logo{
+    width: 120px;
+}
+.search-btn{
+    background-color: #fdd504 !important;
+    border-color: black !important;
+     
+}
+.search-btn:hover>i{
+    color: black;
+}
+.header{
+    background-color: #fdd504;
+}
+.menu{
+    list-style: none;
+   display: flex;
+   padding: 0px;
+   align-items: center;
+   justify-content: flex-start;
+}
+.menu li{
+    /* padding: 20px; */
+    font-weight: 500;
+}
+li a{
+    padding: 5px;
+    color: #000;
+}
+li a:hover{
+    text-decoration: none;
+    color: rgb(169, 93, 93);
+}
+li{
+    padding-left: 35px;
+}
+
+/* Page login */
+
+  
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 400px;
+    }
+    .modal-dialog .modal-content {
+      padding: 1rem;
+    }
+  }
+  .modal-header .close {
+    margin-top: -1.5rem;
+  }
+  
+  .form-title {
+    margin: -2rem 0rem 2rem;
+  }
+  
+  .btn-round {
+    border-radius: 3rem;
+  }
+  
+  .delimiter {
+    padding: 1rem;
+  }
+  
+  .social-buttons .btn {
+    margin: 0 0.5rem 1rem;
+  }
+  
+  .signup-section {
+    padding: 0.3rem 0rem;
+  }
+  .news{
+    position: relative;
+  }
+  .news__title{
+    /* border-bottom: #fdd504 5px solid!important; */
+    text-transform: uppercase;
+    font-weight: bold!important;
+    padding: 10px;
+    background-color: yellow;
+  }
+  .news::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fdd504;
+    bottom: -5px;
+    left: 0;
+
+}
+  .new-item__name{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.carousel-indicators{
+    transform: translateY(14px);
+    bottom: -28px!important;
+    width: 100%;
+    margin: 0!important;
+    display: flex!important;
+    flex-wrap: nowrap;
+}
+.carousel-indicators li{
+    width: 100%!important;
+    background-color: white!important;
+    height: 40px !important;
+    padding: 0px!important;
+    text-indent: 0px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black!important;
+    border: solid 1px black!important;
+    margin: 0!important;
+}
+.carousel-indicators .active{
+    background-color: red!important;
+}
+.menutop__link{
+    position: relative;
+}
+
+.menutop__link:hover::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    bottom: -2px;
+    left: 0px;
+    transform: translateY(1px);
+    animation: slide 0.4s ease;
+}
+@keyframes slide{
+    0%{
+        width: 0px;
+        }
+        50%{
+            width: 50%;
+            }
+        100%{
+            width: 100%;
+            }
+}
